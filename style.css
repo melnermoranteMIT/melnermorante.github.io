@@ -1,57 +1,685 @@
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
 
-.container-main {
+body {
+    background-color: #131415;
+
+}
+
+.header {
+    background-color: #131415;
+    width: 100%;
+    padding: 0em;
+}
+
+.main-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+
+
+}
+
+li:nth-child(1) {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+
+}
+
+li {
+    color: rgb(190, 190, 190);
+    float: left;
+    margin: 2em;
+
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(122, 122, 122);
+    border: 0px;
+    border-radius: 10px;
+    width: 8em;
+    height: 2.5em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    color: white;
+}
+
+.nav {
+    display: none;
+}
+
+.main-content {
+    display: flex;
     justify-content: center;
 
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.content-info {
+
+    width: 65%;
+    height: 80vh;
+    padding: 2em;
+}
+
+
+.flex-container {
     display: flex;
-    margin-top: 5%;
-    /* flex-wrap: wrap-reverse; */
-
-}
-.typewrite{
-    text-decoration: none;
+    justify-content: center;
+    align-items: c;
+    gap: 1em;
+    padding: 1em;
 }
 
-.container-name {
+.card-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    width: 50%;
+    height: 30vh;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+
+
+}
+
+.card-details {
+    width: 50%;
+
+
+}
+
+.rolling-banner {
+    width: 100%;
+    height: 4em;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+
+}
+
+.box1 {
+    width: 50%;
+    height: 25vh !important;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+
+    .box1-info {
+        display: block;
+        align-items: center;
+    }
+
+    .box1-img {
+        text-align: center;
+        height: 8vh;
+
+        .img-sign{
+            width: 200px;
+            margin-top: -4em;
+            color: #4a0c0c;
+        }
+
+    }
+
+    .box1-text{
+        font-size: 12px;
+        color: #535353;
+    }
+
+    .box1-divider {
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+        margin-top: 3em;
+
+        .btn-box1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+.title{
+    font-size: 26px;
+}
+
+svg{
+fill: aqua;
+}
+
+.box2 {
+    width: 50%;
+    height: 25vh ;
+    border-radius: 10px;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+}
+
+
+.service-offering {
+    width: 50%;
+    height: 20vh;
+    border-radius: 10px;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+}
+
+.experience-box {
+    width: 50%;
+    height: 20vh;
+    border-radius: 10px;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+
+}
+
+.service-exp-box {
+    display: flex;
+    gap: 1em;
+}
+
+.banner-creds {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.static-banner {
 
     width: 50%;
-    height: 10em;
-    padding: 10em 0em 0em 5em;
+    height: 20vh;
+    border-radius: 10px;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
 
 }
 
+.profile-box {
+    width: 50%;
+    height: 20vh;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
 
-.container-img {
+}
+
+.social-media {
 
     width: 50%;
-    
+    height: 20vh;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+
 }
 
-img{
-    width: 70%;
-    padding: 5em 0em 0em 0em;
+.profiles {
+    display: flex;
+    width: 50%;
+    gap: 1em;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.footer-title {
+    color: white;
+    text-align: center;
+}
+
+.credits {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.menu-footer {
+    font-size: 16px;
+}
+
+.profile-picture {
+    width: 200px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 5px solid #afadad;
+
+}
+
+.img-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.personal-info {
+    width: 50%;
+
 }
 
 
-.name{
-    font-size: 3em;
+    .name {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    .text-effect {
+        color: rgb(189, 189, 189);
+    }
+
+p {
+    color: white;
 }
 
-@media screen and (max-width: 767px) {
-    .container-main{
-    
-        flex-wrap: wrap; 
+.title-number{
+    font-size: 30px !important ;
+    font-weight: 600;
+    color: #ffffff;
 }
+
+.title-desc{
+    text-align: center;
+    font-size: 16px;
 }
+
+.exp-box-container{
+    width: 30%;
+    background-color: #414141;
+    height: 15vh;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+}
+
+
+.exp-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+
+}
+
 @media screen and (min-width: 1024px) {
+
+
+
+    .card-name {
+        width: 95%;
+        height: 30vh ;
+        display: flex;
+
+    }
+
+    .card-details {
+        width: 100%;
+    }
+
+    .profile-picture {
+        width: 190px;
+
+    }
+
+    p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .img-box {
+        width: 100%;
+    }
+
+    .personal-info {
+        width: 100%;
+    }
+
+    .img-sign{
+        width: 150px !important;
+    }
+
+    .title{
+        font-size: 16px;
+    }
+
+    .title-number{
+        font-size: 16px;
+    }
+
+    .title-desc{
+        font-size: 14px;
+    }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .container-main{
-    
-             flex-wrap: wrap-reverse; 
+
+    .header-container {
+        justify-content: space-between;
+        width: 90% !important;
     }
+
+    li {
+        color: rgb(190, 190, 190);
+        float: left;
+        margin: 1em;
+
+    }
+
+    .content-info {
+
+        width: 90%;
+        height: 80vh;
+    }
+
+    .profile-picture {
+        width: 150px;
+    }
+
+    .personal-info {
+        font-size: 14px;
+    }
+
+
+    .flex-container {
+        display: block;
+    }
+
+    .card-name {
+        width: 95%;
+        height: 30vh !important;
+        display: flex;
+
+    }
+
+    .card-details {
+        width: 100%;
+        margin-top: 1em;
+
+    }
+
+    .profile-picture {
+        width: 250px;
+
+    }
+
+    p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .img-box {
+        width: 100%;
+    }
+
+    .personal-info {
+        width: 100%;
+    }
+
+    .rolling-banner{
+        width: 100% !important;
+    }
+
+    .name{
+        font-size: 12px !important;
+    }
+
+    .text-effect{
+        font-size: 12px;
+    }
+
+
+
 }
 
+@media screen and (max-width: 767px) {
+
+    .header-container {
+        justify-content: space-between;
+        width: 90% !important;
+    }
+
+    li {
+        margin: .5em;
+    }
 
 
+    .menu {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .content-info {
+
+        width: 100%;
+        height: 80vh;
+    }
+
+    .flex-box-container-1{
+        display: block;
+        margin-top: ;
+    }
+
+    .box1{
+        margin-top: 1em;
+        width: 100% !important;
+        height: 22vh !important;
+    }
+
+    .title{
+        font-size: 14px;
+    }
+
+
+
+    .flex-container {
+        display: block;
+
+    }
+
+    .card-name {
+        width: 95%;
+        height: 50vh ;
+        display: block;
+
+    }
+
+    p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .card-details {
+        width: 100%;
+        margin-top: 1em;
+
+    }
+
+    .service-exp-box {
+        display: block;
+    }
+
+    .experience-box {
+        width: 100%;
+    }
+
+    .service-offering {
+        width: 100%;
+    }
+
+    .banner-creds {
+        display: block;
+
+    }
+
+    .profiles {
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .static-banner {
+        width: 100%;
+    }
+
+    .social-media {
+        width: 100%;
+    }
+
+    .profile-box {
+        width: 100%;
+    }
+
+
+    .menu-footer {
+        font-size: 12px;
+    }
+
+    .profile-picture {
+        width: 180px;
+
+    }
+
+    .img-box {
+        width: 100%;
+    }
+
+    .personal-info {
+        width: 100%;
+    }
+
+    .img-sign{
+        width: 150px !important;
+    }
+
+    .content-info{
+        width: 90% !important;
+    }
+
+    .title-number{
+        font-size: 16px;
+    }
+
+    .title-desc{
+        font-size: 14px;
+    }
+
+    .exp-box-container{
+        height: 12vh;
+    }
+
+    .experience-box{
+        height: 16vh;
+    }
+
+    .exp-box-container{
+        border-radius: 5px;
+    }
+
+    .rolling-banner{
+        width: 20em;
+    }
+
+}
+
+.scroll-left {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.scroll-left p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 70px;
+    text-align: center;
+    /* Starting position */
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    animation: scroll-left 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

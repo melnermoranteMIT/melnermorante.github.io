@@ -1,27 +1,225 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Page Title</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Page Title</title>
 </head>
+
 <body>
+    <script>
+        AOS.init();
+
+        var countOptions = {
+  useEasing: true,
+  separator: ''
+}
+
+var count = new CountUp('MyNumber', 0, 2016, 0, 5, countOptions)
+
+// start the counting and give it a callback when done
+count.start(function() {
+//
+})
+      </script>
+    <header class="header">
+        <div class="main-head">
+            <div class="header-container">
+                <div class="logo-container">
+                    <h1 class="logo">LOGO</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Work</li>
+                        <li>Contact</li>
+
+                    </ul>
+                </div>
+                <div class="button">
+                    <button class="btn">Let's Talk</button>
+                </div>
+
+                <div class="nav">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </div>
 
 
-<div class="container-main">
-    <div class="container-name">
-        <h1 class="name">Hi' Im Melner Morante</h1>
-        <h1>
-            <a href="" class="typewrite" data-period="2000" data-type='[ "Im a Web Developer / Software Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
-              <span class="wrap"></span>
-            </a>
-          </h1>
-          
-    </div>
+            </div>
+        </div>
+    </header>
 
-    <div class="container-img">
-        <img class="img" src="assets/img.svg" alt="Italian Trulli">
-    </div>
-</div>
-<script src="main.js"></script>
+    <!-- Main Content -->
+    <section>
+        <div class="main-content">
+
+            <div class="content-info">
+
+                <div class="flex-container">
+                    <div  data-aos="zoom-in" data-aos-duration="1000" class="card-name">
+                        <div class="img-box">
+                            <img src="assets/img/profile-pic.jpg" class="profile-picture">
+                        </div>
+                        <div class="personal-info">
+                            <p><span class="text-effect">A Web developer</span>
+                                <br><span class="name">Melner<br>Morante</span>
+                                <br><span class="text-effect">I am a Web / Software Developer <br> based in Olongapo
+                                    Philippines</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <div class="rolling-banner" data-aos="fade-left"
+                        data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="500">
+                            <div class="scroll-left">
+                                <p>Scroll left... Scroll left...Scroll left...Scroll left...Scroll left...Scroll left...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex-box-container-1">
+                            <div class="box1" data-aos="zoom-in" data-aos-duration="2000">
+                                <div class="box1-info">
+                                    <div class="box1-img">
+                                        <img src="assets/img/1-01.svg" class="img-sign" style="color: red;">
+                                    </div>
+                                    <div class="box1-divider">
+                                        <div>
+                                            <p class="title"><span class="box1-text">MORE ABOUT ME</span><br>
+                                                Credentials</p>
+                                        </div>
+                                        <div class="btn-box1"><button>d</button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="box1" data-aos="zoom-in" data-aos-duration="2000">
+                                <div class="box1-info">
+                                    <div class="box1-img">
+                                        <img src="assets/img/myworks-01-01-01.png" class="img-sign" style="color: red;">
+                                    </div>
+                                    <div class="box1-divider">
+                                        <div>
+                                            <p class="title"><span class="box1-text">SHOWCASE</span><br>
+                                                Projects</p>
+                                        </div>
+                                        <div class="btn-box1"><button>d</button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-exp-box">
+                    <div class="experience-box" data-aos="zoom-in" data-aos-duration="1000" class="card-name">
+                        <div class="exp-box">
+                            <div class="exp-box-container">
+                                <h3 class="title-number" id='MyNumber'>0</h3>
+                                <p class="title-desc">Years of experiece</p>
+                            </div>
+                            <div class="exp-box-container">
+                                <h3 class="title-number">+ 03</h3>
+                                <p class="title-desc">Clients</p>
+
+                            </div>
+                            <div class="exp-box-container">
+                                <h3 class="title-number">+ 03</h3>
+                                <p class="title-desc">Total Projects</p>
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="service-offering" data-aos="zoom-in" data-aos-duration="1000" class="card-name">
+                        <p>services</p>
+
+                    </div>
+
+                </div>
+
+                <div class="banner-creds">
+                    <div class="static-banner">
+                        <p>Lets work Together</p>
+                    </div>
+
+
+                    <div class="profiles">
+                        <div class="profile-box">
+                            <p>fb</p>
+                        </div>
+                        <div class="social-media">
+                            <p>fb</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <footer>
+                        <div>
+
+                            <h1 class="footer-title">LOGO</h1>
+
+                            <div class="menu-footer">
+                                <ul class="footer-nav">
+                                    <li>Home</li>
+                                    <li>About</li>
+                                    <li>Work</li>
+                                    <li>Contact</li>
+
+                                </ul>
+
+                                <div>
+                                    <h3 class="credits">Developed by: Melner Morante</h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </footer>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
 </body>
+
+
 </html>
