@@ -3,12 +3,12 @@ html {
 }
 
 body {
-    background-color: #131415;
+    background-color: #171616;
 
 }
 
 .header {
-    background-color: #131415;
+    background-color: #171616;
     width: 100%;
     padding: 0em;
 }
@@ -197,6 +197,10 @@ li {
         margin-top: 3em;
     }
 
+}
+
+box1 :hover{
+    
 }
 
 .card-title{
@@ -604,7 +608,7 @@ p {
 
     .flex-box-container-1{
         display: block;
-        margin-top: ;
+
     }
 
     .box1{
