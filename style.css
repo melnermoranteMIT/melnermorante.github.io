@@ -174,8 +174,8 @@ li {
     .box1-divider {
         display: flex;
         justify-content: center;
-        gap: 3em;
-        margin-top: 3em;
+        gap: 2em;
+        margin: 3em 1em 0em 2em;
 
         .btn-box1 {
             display: flex;
@@ -184,6 +184,23 @@ li {
         }
     }
 
+    .subtitle{
+        flex: 1;
+        margin-top: 1em;
+
+    }
+
+    .subtitle-btn{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 3em;
+    }
+
+}
+
+.card-title{
+    font-size: 20px;
 }
 
 .title{
@@ -249,6 +266,11 @@ fill: aqua;
 
 }
 
+.static-banner h1 {
+    color: white;
+    font-size: 3em;
+    margin-left: 1em;
+}
 .profile-box {
     width: 50%;
     height: 20vh;
@@ -342,6 +364,7 @@ p {
 .title-desc{
     text-align: center;
     font-size: 16px;
+    margin-top: -15px;
 }
 
 .exp-box-container{
@@ -362,6 +385,58 @@ p {
     padding: 1em;
 
 }
+
+.service-box{
+    display: flex;
+    justify-content: center;
+ align-items: center;
+ gap: 3em;
+ margin-top: 2em;
+}
+
+.service-img{
+    width: 60px;
+
+}
+
+.services-subheader{
+ 
+  margin-left: 2em;
+}
+
+.service-img-box{
+   
+}
+
+.services-subtitle{
+    flex: 1;
+   
+}
+
+.services-subtitle span{
+    
+    font-size: 12px;
+    color: #535353;
+   
+}
+
+.services-subtitle h1{
+    
+    font-size: 22px;
+    color: #ffffff;
+
+   
+}
+
+.services-subtitle div{
+    
+    position: absolute;
+    left: 80%;
+    bottom: 15%;
+
+   
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -628,7 +703,7 @@ p {
     }
 
     .title-number{
-        font-size: 16px;
+        font-size: 20px !important;
     }
 
     .title-desc{
@@ -650,6 +725,26 @@ p {
     .rolling-banner{
         width: 20em;
     }
+
+    .service-img{
+        width: 40px;
+        margin-top: 2em;
+    }
+
+    .services-subtitle h1{
+        margin-top: 1em;
+    }
+
+    .services-subtitle div{
+       left: 75%;
+    }
+
+    .static-banner h1{
+        position: absolute;
+        bottom: 5%;
+        font-size: 30px;
+    }
+
 
 }
 
@@ -683,3 +778,67 @@ p {
         transform: translateX(-100%);
     }
 }
+
+
+
+
+
+
+
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 6px 9px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #282929;
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #494949;
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #4a4a4a;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: #ffffff;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }
