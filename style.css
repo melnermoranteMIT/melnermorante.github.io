@@ -91,7 +91,7 @@ li {
 
     width: 65%;
     height: 80vh;
-    padding: 2em;
+    padding: 1em 2em 2em 2em;
 }
 
 .details {
@@ -827,6 +827,7 @@ p {
     }
 
     .content-info {
+
     width: 100%;
     }
 
@@ -850,7 +851,7 @@ p {
 
     .title {
         font-size: 1em;
-        position: absolute;
+     
     }
 
 
@@ -870,13 +871,10 @@ p {
         min-height: 22em;
         max-height: 22em;
         display: block;
-
-    }
-
-    p {
-        font-size: 14px;
         text-align: center;
     }
+    
+
 
     .card-details {
         width: 100%;
@@ -948,11 +946,12 @@ p {
     }
 
     .img-sign {
-        width: 150px !important;
+        margin-top: -3em;
+        width: 9.4em !important;
     }
 
     .title-number {
-        font-size: 20px;
+        font-size: 1.5em !important;
     }
 
     .title-desc {
@@ -981,20 +980,24 @@ p {
 
     .services-subtitle h1 {
         margin-top: 1em;
+        font-size: 1.2em;
     }
 
     .services-subtitle div {
         left: 75%;
+        bottom: 10%;
     }
 
     .static-banner h1 {
         position: absolute;
         bottom: 5%;
-        font-size: 30px;
+        font-size: 1.8em;
     }
 
     .btn-position{
         position: absolute;
+        bottom: 20%;
+        left: 75% !important;
     }
 
 
