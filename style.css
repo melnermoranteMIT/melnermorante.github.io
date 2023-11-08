@@ -82,7 +82,6 @@ li {
 .main-content {
     display: flex;
     justify-content: center;
-    overflow: hidden; /* Hide scrollbars */
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -264,6 +263,7 @@ svg {
     justify-content: center;
     gap: 1em;
     margin-top: 1em;
+
 }
 
 .banner-creds {
@@ -691,6 +691,7 @@ p {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    
 
     .header-container{
         width: 95%;
@@ -794,6 +795,10 @@ p {
 }
 @media screen and (max-width: 767px) {
 
+    html{
+        overflow-x: hidden;
+    }
+
     .header-container {
         justify-content: space-between;
         width: 90% !important;
@@ -803,7 +808,9 @@ p {
         margin: .5em;
     }
 
-
+  .main-content {
+  
+    }
     .menu {
         display: none;
     }
@@ -823,6 +830,8 @@ p {
     width: 100%;
     }
 
+  
+
     .details{
         display: block;
     }
@@ -835,7 +844,7 @@ p {
     .box1 {
         margin-top: 1em;
         min-width: 22em;
-        max-width: 42em;
+        max-width: 35em;
 
     }
 
@@ -857,7 +866,7 @@ p {
 
     .card-name {
         min-width: 20em;
-        max-width: 40.5em;
+        max-width: 35em;
         min-height: 22em;
         max-height: 22em;
         display: block;
@@ -877,7 +886,7 @@ p {
 
     .rolling-banner {
         min-width: 22em;
-        max-width: 42em;
+        max-width: 35em;
         border-radius: 10px;
     }
 
@@ -887,12 +896,12 @@ p {
 
     .experience-box {
         min-width: 22em;
-        max-width: 42em;
+        max-width: 35em;
     }
 
     .service-offering {
         min-width: 22em;
-        max-width: 42em;
+        max-width: 35em;
     }
 
     .banner-creds {
@@ -907,17 +916,17 @@ p {
 
     .static-banner {
         min-width: 22em;
-        max-width: 42em;
+        max-width: 35em;
     }
 
     .social-media {
         min-width: 22em;
-        max-width: 42em;
+        max-width: 35em;
     }
 
     .profile-box {
         min-width: 22em;
-        max-width: 42em;
+        max-width: 35em;
     }
 
 
