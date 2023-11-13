@@ -3,6 +3,11 @@ html {
    
 }
 
+a{ 
+    text-decoration: none;
+    color: #ffffff;
+}
+
 body {
     background-color: #171616;
 }
@@ -627,6 +632,210 @@ p {
     max-width: 15em;
 }
 
+
+
+.self-container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.profile-content{
+    width: 50%;
+}
+.profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 19em;
+    max-width: 19em;
+    min-height: 18em;
+    max-height: 18em;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+
+}
+
+.img-profile{
+    min-width: 300px;
+    margin-top: 2em;
+    border-radius: 20px;
+    border: 5px solid #afadad;
+
+}
+
+
+.profile-title{
+
+    min-width: 15em;
+    min-height: 6em;
+    max-height: 6em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.profile-title h1{
+    font-size: 3.5vw;
+    color: #ffffff;
+}
+
+
+.profile-info{
+    min-width: 15em;
+    max-width: 37em;
+    min-height: 13em;
+    max-height: 13em;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+    padding: 1em 1em 0em 1em;
+}
+
+.profile-info h2{
+    color: white;
+    font-size: 2vw;
+}
+
+
+
+.box-exp{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0em 5vw 0em 5vw;
+}
+
+
+.expi-container{
+    width: 50%;
+    min-width: 15em;
+    max-width: 27em;
+    min-height: 13em;
+    max-height: 16em;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+    padding: 1em 1em 0em 1em;
+}
+
+
+.educ-container{
+    width: 50%;
+    min-width: 15em;
+    max-width: 27em;
+    min-height: 13em;
+    max-height: 16em;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+    padding: 1em 1em 0em 1em;
+}
+
+
+.expi-container h3{
+    color: white;
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+.expi-year{
+    font-size:.7vw;
+    font-weight: 300;
+    color: #8e8e8e;
+}
+
+.job-title{
+    font-size: .9vw;
+
+}
+
+.company{
+    font-size: .8vw;
+    font-weight: 300;
+    color: #8e8e8e;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1024px) {
 
     li {
@@ -846,6 +1055,10 @@ p {
         bottom: 27%;
     }
 
+    .footer-nav{
+       margin-left: -2em;
+    }
+
     
 }
 @media screen and (max-width: 767px) {
@@ -1057,6 +1270,10 @@ p {
         left: 75% !important;
     }
 
+    .footer-nav{
+        margin-left: -3em;
+     }
+ 
 
 }
 
