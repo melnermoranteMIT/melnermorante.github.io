@@ -9,11 +9,11 @@ a{
 }
 
 body {
-    background-color: #171616;
+    background-color: #0F0F0F;
 }
 
 .header {
-    background-color: #171616;
+    background-color: #0F0F0F;
     width: 100%;
     padding: 0em;
 }
@@ -165,7 +165,13 @@ li:hover{
 
 .img-sign {
     width: 300px !important;
-    margin-top: -2em;
+    margin-top: -3em;
+
+}
+
+.img-sign-works{
+    width: 130px !important;
+    margin-top: -3em;
 
 }
 
@@ -259,7 +265,7 @@ svg {
 }
 
 .experience-box {
-    min-width: 33em;
+    max-width: 33em;
     min-height: 10em;
     max-height: 15em;
     border-radius: 10px;
@@ -480,12 +486,13 @@ footer {
 
 .name {
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 700;
 }
 
 .text-effect {
     color: rgb(189, 189, 189);
+    font-size: 14px;
 }
 
 p {
@@ -530,12 +537,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3em;
-    margin-top: 2em;
+    gap: 2em;
+    position: relative;
+    top: 20%;
 }
 
 .service-img {
-    width: 60px;
+    width: 70px;
 
 }
 
@@ -633,76 +641,57 @@ p {
 }
 
 
-
-.self-container{
+.profile-details{
+    display: flex;
+    justify-content: center;
+    
+}
+.profile-container{
     display: flex;
     justify-content: center;
     gap: 1em;
-}
-
-.profile-content{
-    width: 50%;
-}
-.profile-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 19em;
-    max-width: 19em;
-    min-height: 18em;
-    max-height: 18em;
+    min-width: 60em;
+    max-width: 60em;
     backdrop-filter: blur(8px) saturate(127%);
     -webkit-backdrop-filter: blur(8px) saturate(127%);
     background-color: rgba(36, 37, 37, 1);
     border-radius: 20px;
-
+    width: 85%;
 }
 
-.img-profile{
-    min-width: 300px;
-    margin-top: 2em;
-    border-radius: 20px;
-    border: 5px solid #afadad;
-
+.profile-container h1{
+    color: rgb(125, 125, 125);
+    font-size: 2.5em;
+    text-align: center;
 }
 
-
-.profile-title{
-
-    min-width: 15em;
-    min-height: 6em;
-    max-height: 6em;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.profile-title h1{
-    font-size: 3.5vw;
-    color: #ffffff;
-}
-
-
-.profile-info{
-    min-width: 15em;
-    max-width: 37em;
-    min-height: 13em;
-    max-height: 13em;
-    backdrop-filter: blur(8px) saturate(127%);
-    -webkit-backdrop-filter: blur(8px) saturate(127%);
-    background-color: rgba(36, 37, 37, 1);
-    border-radius: 20px;
-    padding: 1em 1em 0em 1em;
-}
-
-.profile-info h2{
+.profile-container h2{
     color: white;
-    font-size: 2vw;
+    font-size: 2.5em;
+
 }
 
+.profile-container p{
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 0em 4em 0em 0em;
+    line-height: 1.5;
+
+}
+
+.profile-container div{
+    padding: 1em;
+}
+
+
+.mypic{
+    width: 20em;
+    
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 5px solid #afadad;
+}
 
 
 .box-exp{
@@ -710,14 +699,13 @@ p {
     display: flex;
     justify-content: center;
     gap: 1em;
-    padding: 0em 5vw 0em 5vw;
 }
 
 
 .expi-container{
     width: 50%;
-    min-width: 15em;
-    max-width: 27em;
+    min-width: 27.5em;
+    max-width: 27.5em;
     min-height: 13em;
     max-height: 16em;
     backdrop-filter: blur(8px) saturate(127%);
@@ -730,8 +718,8 @@ p {
 
 .educ-container{
     width: 50%;
-    min-width: 15em;
-    max-width: 27em;
+    min-width: 27.5em;
+    max-width: 27.5em;
     min-height: 13em;
     max-height: 16em;
     backdrop-filter: blur(8px) saturate(127%);
@@ -745,30 +733,205 @@ p {
 .expi-container h3{
     color: white;
     font-weight: 300;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .expi-year{
-    font-size:.7vw;
+    font-size:.7em;
     font-weight: 300;
     color: #8e8e8e;
 }
 
 .job-title{
-    font-size: .9vw;
+    font-size: .9em;
 
 }
 
 .company{
-    font-size: .8vw;
+    font-size: .8em;
     font-weight: 300;
     color: #8e8e8e;
 
 }
 
+.skills-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    padding: 0em 7em 0em 7em;
+
+}
+
+.skills-container{
+    min-width: 60em;
+    max-width: 70em;
+    min-height: 13em;
+    max-height: 16em;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+    padding: 0em 1em 0em 1em;
+
+}
+
+
+.skills{
+    line-height: 1.5;
+}
+
+.percentage{
+    font-size: .9em;
+    color: #8e8e8e;
+
+}
+
+.skill-title{
+    font-size: 1.5em;
+}
+
+.skills-column{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1em;
+    gap: 1em;
+}
+
+.skills-container h2{
+    color: white;
+}
+
+.educ-container h3{
+    color: white;
+}
+
+
+/*contact */
+
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+
+    height: 35em;
+    
+}
+
+.contact-details{
+    display: block;
+    background-color: #0F0F0F;
+    width: 35%;
+    padding: 1em;
+
+}
+
+.contact-details div{
+    display: flex;
+
+    gap: 1em;
+    color: rgb(144, 143, 143);
+    margin-bottom: 2em;
+}
+
+.contact-details h4{
+    font-size: 12px;
+}
+
+.contact-details h3{
+    font-size: 14px;
+    margin-top: -1em;
+}
+
+.img-docu{
+    width: 6em;
+    margin-top: 1.5em;
+}
+
+
+.contact-content{
+    display: block !important;
+}
+
+.contact-icon{
+    width: 70px;
+    height: 70px;
+}
 
 
 
+.contact-form{
+
+    width: 70%;
+    backdrop-filter: blur(8px) saturate(127%);
+    -webkit-backdrop-filter: blur(8px) saturate(127%);
+    background-color: rgba(36, 37, 37, 1);
+    border-radius: 20px;
+}
+
+
+.contact-field{
+    padding: 1em 3em 3em 3em;
+}
+
+.contact-field h1{
+    font-size: 2.5em;
+    color: white;
+}
+
+.input-field{
+    display: block !important;
+}
+
+input{ 
+    font-size: 14px;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+padding: 5px;
+    width: 100%;
+    height: 3.5em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: #434343;
+}
+
+input ::placeholder{
+    font-size: 14px;
+}
+
+textarea{
+   resize: none;
+   width: 100%;
+}
+
+#messages{
+    border-radius: 10px;
+    border: none;
+    background-color: #434343;
+    padding: 5px;
+
+    font-size: 14px;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 1em;
+}
+
+
+.contact-btn{
+
+    width: 101%;
+    height: 4em;
+   margin-right: 1em;
+   border: none;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-weight: 600;
+    border-radius: 10px;
+    background-color: #7b7b7b;
+}
+
+.highlight{
+    color: rgb(31, 87, 191);
+}
 
 
 
@@ -1059,6 +1222,36 @@ p {
        margin-left: -2em;
     }
 
+
+    .expi-year{
+
+        font-size: .8em;
+    }
+
+    .job-title{
+        font-size: 1em;
+    }
+
+    .company{
+        font-size: .8em;
+    }
+
+    .expi-container h3{
+        color: white;
+        font-weight: 300;
+        font-size: 1em;
+    }
+
+    .profile-info h2{
+
+        font-size: 1.5em;
+    }
+
+    .profile-info p{
+        margin-top: .5em;
+        font-size: .9em;
+    }
+
     
 }
 @media screen and (max-width: 767px) {
@@ -1115,6 +1308,7 @@ p {
         min-width: 22em;
         max-width: 35em;
 
+        
     }
 
     .title {
@@ -1318,7 +1512,7 @@ p {
 
 .scroll-left p {
     position: absolute;
-    min-width: 15em;
+    width: 50em;
     height: 100%;
     margin: 0;
     line-height: 70px;
@@ -1326,7 +1520,7 @@ p {
     /* Starting position */
     transform: translateX(100%);
     /* Apply animation to this element */
-    animation: scroll-left 15s linear infinite;
+    animation: scroll-left 13s linear infinite;
 }
 
 /* Move it (define the animation) */
