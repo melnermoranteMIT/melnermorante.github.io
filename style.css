@@ -732,8 +732,7 @@ p {
 
 .expi-container h3{
     color: white;
-    font-weight: 300;
-    font-size: 1em;
+
 }
 
 .expi-year{
@@ -757,9 +756,15 @@ p {
 .skills-box{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 1em;
     padding: 0em 7em 0em 7em;
 
+}
+
+.skills-box h1{
+    text-align: left !important;
+    color: white;
 }
 
 .skills-container{
@@ -780,6 +785,28 @@ p {
     line-height: 1.5;
 }
 
+.tools-box{
+    display: block;
+    text-align:  center;
+    padding: .5em;
+    width: 10em;
+    background-color: rgb(58, 58, 58);
+}
+
+.tools-box h4{
+    margin-top: -.1em;
+    margin-bottom: .5em;
+    color: white;
+}
+
+.tools-container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    width: 67em;
+    
+}
 .percentage{
     font-size: .9em;
     color: #8e8e8e;
