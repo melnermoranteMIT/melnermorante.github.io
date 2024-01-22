@@ -209,6 +209,10 @@ li:hover{
 
 }
 
+.subtitle div{
+    margin-left: 2em;
+}
+
 .box1 {
     min-width: 15em;
     max-width: 15em;

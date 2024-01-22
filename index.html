@@ -4,21 +4,28 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <title>Melner Morante | Portfolio</title>
 </head>
 
 <body>
 
     <script>
+ 
+
+
         AOS.init();
 
         var countOptions = {
@@ -36,7 +43,10 @@
             }
         }
 
+
     </script>
+
+
     <header class="header">
         <div class="main-head">
             <div class="header-container">
@@ -87,7 +97,7 @@
 
                 <div class="flex-container">
                     <div class="details">
-                        <div data-aos="zoom-in" data-aos-duration="1000" class="card-name">
+                        <div data-aos="zoom-in" data-aos-duration="600" class="card-name">
                             <div class="img-box">
                                 <img src="assets/img/profile-pic.jpg" class="profile-picture">
                             </div>
@@ -97,18 +107,21 @@
                                     <br><span class="text-effect">Email: Melnejw@gmail.com <br>+63 948-583-4026
                                         <br> +63 906-432-2358</span>
                                 </p>
+                                
                             </div>
                         </div>
                         <div class="card-details">
                             <div class="rolling-banner" data-aos="fade-left" data-aos-anchor="#example-anchor"
                                 data-aos-offset="500" data-aos-duration="500">
                                 <div class="scroll-left">
-                                    <p> &diams; &nbsp;&nbsp; Web Developer&nbsp;&nbsp; &diams;&nbsp;&nbsp; Software Developer  &nbsp;&nbsp;
-                                        &diams;   &nbsp;&nbsp; Front-end Developer  &diams;   &nbsp;&nbsp; IT Support / Assistant &nbsp;&nbsp;&diams; </p>
+                                    <p> &diams; &nbsp;&nbsp; Web Developer&nbsp;&nbsp; &diams;&nbsp;&nbsp; Software
+                                        Developer &nbsp;&nbsp;
+                                        &diams; &nbsp;&nbsp; Front-end Developer &diams; &nbsp;&nbsp; IT Support /
+                                        Assistant &nbsp;&nbsp;&diams; </p>
                                 </div>
                             </div>
                             <div class="flex-box-container-1">
-                                <div class="box1" data-aos="zoom-in" data-aos-duration="2000">
+                                <div class="box1" data-aos="zoom-in" data-aos-duration="1000">
                                     <div class="box1-info">
                                         <div class="box1-img">
                                             <img src="assets/img/1-01.svg" class="img-sign">
@@ -163,20 +176,20 @@
                 </div>
 
                 <div class="service-exp-box">
-                    <div class="experience-box" data-aos="zoom-in" data-aos-duration="1000" class="card-name">
+                    <div class="experience-box" data-aos="zoom-in" data-aos-duration="500" class="card-name">
                         <div class="exp-box">
-                            <div class="exp-box-container">
-                                <h3 class="title-number">2</h3>
+                            <div class="exp-box-container" >
+                                <h3 class="title-number" id="counter1" data-count="02">0</h3>
                                 <p class="title-desc">Years<br>experiece</p>
                             </div>
                             <div class="exp-box-container">
-                                <h3 class="title-number">03</h3>
+                                <h3 class="title-number" id="counter2" data-count="03">0</h3>
 
                                 <p class="title-desc"><br>Clients</p>
 
                             </div>
                             <div class="exp-box-container">
-                                <h3 class="title-number">03</h3>
+                                <h3 class="title-number" id="counter3" data-count="05">0</h3>
                                 <p class="title-desc">Total <br>Projects</p>
 
                             </div>
@@ -217,8 +230,8 @@
 
                 </div>
 
-                <div class="banner-creds">
-                    <div class="static-banner">
+                <div class="banner-creds" >
+                    <div class="static-banner" data-aos="zoom-in" data-aos-duration="600">
                         <div>
                             <h1>Let's <br>
                                 work together.</h1>
@@ -234,7 +247,7 @@
 
 
                     <div class="profiles">
-                        <div class="profile-box">
+                        <div class="profile-box" data-aos="zoom-in" data-aos-duration="1000">
                             <div class="box1-info">
                                 <div class="box1-img">
                                     <img src="assets/img/docu-01.png" class="img-docu">
@@ -242,8 +255,9 @@
 
                                 <div class="subtitle">
                                     <p class="title"><span class="box1-text">Download CV</span><br>
-                                        <div>
-                                        <button class="btn" ><a href="MelnerMoranteCV.pdf" target="_blank">Download</a> </button>
+                                    <div>
+                                        <button class="btn"><a href="MelnerMoranteCV.pdf" target="_blank"
+                                                rel="noopener noreferrer">Download</a> </button>
                                     </div>
                                     </p>
                                 </div>
@@ -251,8 +265,8 @@
 
                             </div>
                         </div>
-                        <div class="social-media">
-                            <div class="media-container">
+                        <div class="social-media" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="media-container" >
                                 <div class="media-box">
                                     <div>
                                         <img src="assets/img/mobile-01.png" class="social-img" alt="">
@@ -317,7 +331,25 @@
         </div>
     </section>
 
+<script>
+    var counters = document.querySelectorAll('[id^="counter"]');
 
+counters.forEach(function(counter) {
+    handleCounter(counter);
+});
+
+function handleCounter(counterElement) {
+    var c = 0;
+    var countTo = parseInt(counterElement.dataset.count, 10);
+    var interval = setInterval(() => {
+        if (c == countTo) {
+            clearInterval(interval);
+        }
+        counterElement.innerText = c;
+        c++;
+    }, 200); // Change 500 for milliseconds (0.5 seconds)
+}
+</script>
 
 
 
