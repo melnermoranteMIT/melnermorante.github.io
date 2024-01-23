@@ -1333,8 +1333,21 @@ textarea{
         justify-content: flex-start;
         margin-left:  -3em;
     }
+
+         /*contact.html*/
+     
+         .content-info{
+            width: 100%;
+         }
+
+         
+         input{
+            height: 2.5em;
+         }
     
 }
+
+
 @media screen and (max-width: 767px) {
 
     html{
@@ -1551,12 +1564,12 @@ textarea{
  
 
      .mypic{
-        width: 17em;
+        width: 19.2em;
      }
 
      .profile-container{
-        min-width: 20em;
-        max-width: 20em;
+        min-width: 22em;
+        max-width: 22em;
         flex-direction: column;
      }
 
@@ -1592,6 +1605,11 @@ textarea{
      }
 
 
+     /*contact.html*/
+     
+     .content-info{
+
+     }
 
 }
 
