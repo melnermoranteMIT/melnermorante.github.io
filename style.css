@@ -1283,6 +1283,56 @@ textarea{
         font-size: .9em;
     }
 
+    .profile-container{
+        min-width: 35em;
+        max-width: 35em;
+    }
+
+    .profile-container h1{
+        font-size: 2em;
+    }
+
+    .profile-container h2{
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    .profile-container p{
+        margin-top: -1em;
+        font-size: .7em;
+        text-align: justify;
+    }
+
+    .mypic{
+        width: 14em;
+        margin-top: 2em;
+    }
+
+    .box-exp{
+
+    }
+
+    .expi-container{
+        max-width: 15em;
+        min-width: 15em;
+    }
+
+    .educ-container{
+        max-width: 15em;
+        min-width: 15em;
+    }
+
+    .skills-box{
+        
+    }
+
+    .tools-container{
+        flex-direction: column;
+        height: 58.9em;
+        width: 100em;
+        justify-content: flex-start;
+        margin-left:  -3em;
+    }
     
 }
 @media screen and (max-width: 767px) {
