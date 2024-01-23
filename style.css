@@ -1550,6 +1550,49 @@ textarea{
      }
  
 
+     .mypic{
+        width: 17em;
+     }
+
+     .profile-container{
+        min-width: 20em;
+        max-width: 20em;
+        flex-direction: column;
+     }
+
+     .profile-container h1{
+        font-size: 2em;
+        margin-top: -1em;
+     }
+
+     .profile-container h2{
+        font-size: 2em;
+        text-align: center;
+     }
+
+     .profile-container p{
+        text-align: center;
+        padding: 0em 0em 0em 0em;
+     }
+
+     .box-exp{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+     }
+
+     .expi-container{
+        min-width: 20em;
+        max-width: 20em;
+     }
+
+     .educ-container{
+        min-width: 20em;
+        max-width: 20em;
+     }
+
+
+
 }
 
 .scroll-left {
