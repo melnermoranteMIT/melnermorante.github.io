@@ -794,7 +794,7 @@ p {
     text-align:  center;
     padding: .5em;
     width: 10em;
-    background-color: rgb(58, 58, 58);
+    background-color: none;
 }
 
 .tools-box h4{
@@ -1337,11 +1337,26 @@ textarea{
          /*contact.html*/
      
 
-         
-         input{
-            height: 2.5em;
+         .contact-box{
+            gap: 8em;
          }
-    
+         input{
+            height: 2.1em;
+         }
+
+         .contact-form{
+            height: 38em;
+            width: 60em;
+         }
+         
+         .contact-content h3{
+            width: 19em;
+            word-wrap: normal;
+         }
+
+         .contact-field h1{
+            font-size: 2em;
+         }
 }
 
 
@@ -1455,6 +1470,7 @@ textarea{
     .service-offering {
         min-width: 22em;
         max-width: 35em;
+        margin-top: 1em;
     }
 
     .banner-creds {
@@ -1604,9 +1620,27 @@ textarea{
 
      /*contact.html*/
      
-     .content-info{
-
+     .contact-details{
+    width: auto;
      }
+
+     .contact-box{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+     }
+
+     .contact-form{
+        width: auto;
+     }
+
+     input{
+        
+     }
+
+
+
+     
 
 }
 
@@ -1710,6 +1744,17 @@ textarea{
     letter-spacing: 0.05em;
     color: #494949;
 }
+
+.cta a {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #494949;
+}
+
+
 
 .cta svg {
     position: relative;
